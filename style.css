@@ -3,21 +3,33 @@
 *{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 header{
-    background-color: #122434;
-    color: #fff;
-    font-size: 18px;
-    padding-bottom: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    background: rgba(255, 166, 0, 0.658);
+    position: fixed;
 }
 .logo{
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 60px;
-
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
 }
 .list{
     font-family: 'Athiti', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 .com{
     width: 50px;
@@ -33,13 +45,21 @@ header{
     border-radius: 5px;
     border-color: #fff;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
 }
 ul li{
     list-style: none;
     display: block;
     display: contents;
     align-items: center;
-
-    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+header a{
+    color: rgb(13, 78, 163);
 }
