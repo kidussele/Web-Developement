@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration | Welcome</title>
+        <link rel="stylesheet" href="registration_style.css" type="text/css"/>
+    </head>
+    <body>
+        <div class="header">
+            <ul>
+              <li><a href="index.html"><img src="image/logo.png" alt="This is our logo."/></a></li>
+              <li><a href="login.html" class="left">LOGIN</a></li>
+              <li><a href="registration.html" class="left">SIGNUP</a></li>
+              <li><a href="contact_us.html" class="left">CONTACT US</a></li>
+              <li><a href="#" class="left">ABOUT</a></li>
+              <li><a href="#" class="left">GALLARY</a></li>
+              <li><a href="index.html" class="left">HOME</a></li>
+  
+            </ul>
+          </div>
+        <div class="container">
+            <form action="registration.php" method="post">
+                <ul>
+                    <h1>REGISTER</h1>
+                    <li><input type="text" placeholder="First Name" name="firstname" id="firstname" class="inputs" required/></li>
+                    <li><input type="text" placeholder="Last Name" name="lastname" id="lastname" class="inputs" required/></li>
+                    <li><input type="email" placeholder="Email Address" name="email" id="email" class="inputs" required/></li>
+                    <li><input type="password" placeholder="Password" name="password" id="password" class="inputs" required/></li>
+                    <li><input type="password" placeholder="Comfirm Password" name="cpassword" id="confirm_password" class="inputs" required/></li>
+                    <li><input type="submit" class="submit" value="SUBMIT" onclick="checkPassword"/></li>
+                    <div class="log">
+                        <li><a href="login.html" class="create">I have an account.</a></li>
+                    </div>
+                </ul>
+            </form>
+        </div>
+        <script>
+            function checkPassword(){
+                let password = document.getElementById("password").value;
+                let confirm_password = document.getElementById("confirm_password").value;
+                console.log(password, confirm_password);
+                let message = document.getElementById("message");
+
+                if(password.length != 0){
+                    if(password == confirm_password){
+                        message.textContent = "Password Match";
+                        message.style.backgroundColor = "#3ae374";
+                    }
+
+                    else{
+                        message.textContent = "Password don't match";
+                        message.style.backgroundColor = "#ff4d4d";
+                    }
+                }
+                else{
+                    alert("Password can't be blank");
+                    message.textContent = "";
+                }
+            }
+</script>
+    </body>
+</html>

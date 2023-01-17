@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+ /*------------------HEADER OPEN----------------*/
+ .header{
+    background-color: rgba(0, 0, 0, 0.788);
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    margin-top: -195px;
+ }
+ .header ul li img{
+    width: 50px;
+    height: 50px; 
+    margin-top: 10px;
+
+ }
+ .header ul li {
+    display: inline;
+    list-style-type: none;
+    font-size: 16px;
+    padding-top: 40px;
+    justify-content: center;
+    padding-bottom: 5px;
+ }
+ .left{
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+ }
+ .header ul li a{
+    text-decoration: none;
+    color: #fff;
+ }
+ .header ul li a:hover{
+    color: rgb(211, 112, 0);
+    font-size: 20PX;
+    margin-top: 20PX;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+ }
+/*-------------------HEADER CLOSE----------------*/
+/*----------------BACKGROUND VIDEO EDIT OPEN-----------------*/
+#Background {
+position: absolute;
+width: 100vw;
+height: 100vh;
+object-fit: cover;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: -1;
+}
+/*----------------BACKGROUND VIDEO EDIT CLOSE-----------------*/
+/*------------------TITLE OPEN--------------------*/
+.biggest, .bigger {
+color: rgb(255, 174, 0);
+font-family: Trebuchet MS;
+font-weight: bold;
+text-align: center;
+}
+
+.biggest {
+font-size: 6rem;
+margin-top: 30vh;
+}
+
+.bigger { font-size: 3rem; }
+@media (max-width: 750px) {
+#Background { display: none; }
+body {
+background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+background-size: cover;
+}
+}
+/*-------------TITLE CLOSE-----------------*/
+/*-------------SCROLL BUTTON OPEN----------------*/
+.scroll{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0.705);
+    border-radius:100%;
+    border-color: yellow;
+    padding:8px;
+    margin-left: 49%;
+
+}
+/*------------SCROLL BUTTON CLOSE-------------*/
+
+/*-------------------------------------SECOND PAGE START HERE-------------------------------------*/
+.second{
+    margin-top: 250px;
+    background-color: rgba(22, 22, 22, 0.959);
+}
+.our{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgb(255, 174, 0);
+    padding-top: 50px;
+    font-size: 44px;
+}
+/*------------------First Info start---------------------*/
+.first-info p{
+    width: 35%;
+    margin-left: 200px;
+    text-align:right;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    padding-bottom: 30px;
+    color: #fff;
+    padding-top: 15px;
+}
+
+.first-info img{
+    width: 350px;
+    height: 420px;
+    float: right;
+    margin-top: -492px;
+    border: rgba(255, 255, 255, 0.61) solid 5px;
+    margin-right: 250px;
+}
+.first-info img:hover{
+    width: 290px;
+    height: 390px;
+    float: right;
+    margin-top: -480px;
+    border-radius: 50px;
+    border: rgba(0, 156, 247, 0.452) solid 5px;
+    margin-right: 290px;
+}
+/*------------------First Info end---------------------*/
+/*------------------Second Info start---------------------*/
+.second-info{
+    background-color: rgba(0, 135, 189, 0.603);
+    color: #fff;
+}
+.second-info p{
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    margin-left: 55%;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.second-info img{
+    width: 380px;
+    height: 480px;
+    margin-top: -578px;
+    margin-left: 290px;
+    float: left;
+    border: rgba(145, 145, 145, 0.74) solid 5px;
+}
+.second-info img:hover{
+    width: 320px;
+    height: 430px;
+    margin-top: -560px;
+    margin-left: 330px;
+    border: #000000a1 solid 5px;
+    border-radius: 50px;
+
+}
+/*------------------Second Info end---------------------*/

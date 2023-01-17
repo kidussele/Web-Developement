@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background-image: url('image/bed.jpg'); 
+    background-position: 0px;
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    background-attachment: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.788);
+    width: 100%;
+    margin-top: -570px;
+    position: fixed;
+}
+.header ul li{
+    display: inline;
+    margin-top: -80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.left{
+    float: right;
+    margin-left: 50px;
+    margin-top: 18px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+}
+.header ul li a img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid transparent;
+    border-spacing: 5px;
+    box-shadow: 5px 5px 15px 10px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgba(1, 0, 0, 0.541);
+    height: 480px;
+    width: 320px;
+}
+
+ul li{
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.header ul li a:hover{
+    color: rgb(211, 112, 0);
+    font-size: 20PX;
+    margin-top: 20PX;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+ }
+
+.inputs{
+    height: 33px;
+    width: 250px;
+    background: transparent;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid #ffffff8e;
+    border-radius: 5px;
+    margin-top: 3px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.submit{
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+    font-weight: 800;
+    color: green;
+    letter-spacing: 2px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-size: 36px;
+}
+.submit:hover{
+    justify-content: space-between;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    
+}
+
+.create{
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow:1px 3px black;
+}
+
+.log{
+    margin-top: 20px;
+}
+.create:hover{
+    color: blue;
+}

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: auto;
+    position: relative;
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('image/bed.jpg');
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-position: 0%;
+}
+
+.container{
+    box-shadow: 5px 5px 15px 10px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgba(1, 0, 0, 0.555);
+}
+
+h1{
+    color: yellow;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.header ul li a:hover{
+    color: rgb(211, 112, 0);
+    font-size: 20PX;
+    margin-top: 20PX;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+ }
+
+ul li{
+    list-style-type: none;
+    margin-top: 15px;
+}
+.login{
+    height: 35px;
+    width: 250px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background: transparent;
+    border: 2px solid #ffffff8e;
+    color: #fff;
+    font-size: 14px;
+}
+.submit{
+    width: 100px;
+    height: 35px;
+    color: green;
+    font-weight: 900;
+    border: none;
+    background-color: yellow;
+    margin-left: 75px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+.submit:hover{
+    color: white;
+    background-color: green;
+}
+.new{
+    text-decoration: none;
+    color: green;
+    margin-top: 150px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    text-shadow:1px 3px black;
+}
+.create{
+    margin-top: 50px;
+}
+.new:hover{
+    color: blue;
+}
